@@ -239,10 +239,8 @@ button.addEventListener("click", () => {
   cookieContent.classList.add("kwAcceptAllscaleIn");
   cookieBackground.classList.add("kwAcceptAllscaleOut");
   
-  setTimeout(() => {
-    cookiePopup.classList.add("kwAcceptAllhide");
-    cookiePopup.classList.remove("kwAcceptAllshow");
-  }, 200);
+  cookiePopup.classList.add("kwAcceptAllhide");
+  cookiePopup.classList.remove("kwAcceptAllshow");
 });
 
 //Check if cookie is already present
