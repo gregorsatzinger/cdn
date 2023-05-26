@@ -242,7 +242,7 @@ button.addEventListener("click", () => {
   setTimeout(() => {
     cookiePopup.classList.add("kwAcceptAllhide");
     cookiePopup.classList.remove("kwAcceptAllshow");
-  }, 400);
+  }, 200);
 });
 
 //Check if cookie is already present
